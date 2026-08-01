@@ -1,8 +1,25 @@
 aid: rentlytics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rentlytics.png
 name: Rentlytics
-description: 'Rentlytics is a company surfaced as a portfolio company of trinity-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: real-estate. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Rentlytics was a multifamily real estate data analytics company founded in 2012 and headquartered
+  in San Francisco, CA (with offices in Sacramento and Denver). Its platform consolidated operational and
+  financial data scattered across multifamily assets into a unified business-intelligence layer, and it
+  shipped products such as Open Data Services and Renovation Manager for per-unit and per-property yield
+  visibility. Rentlytics was acquired by RealPage in 2018 for roughly $57 million and folded into RealPage''s
+  real-estate platform. As of this enrichment pass the standalone rentlytics.com domain is parked (it
+  redirects to a generic lander) and the company operates no independent public developer portal, API
+  documentation, or machine-readable API surface. It was surfaced as a portfolio company of Trinity Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/rentlytics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +27,29 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: realpage
+x-acquired-year: 2018
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Real Estate
+- Analytics
+- Multifamily
+- PropTech
+- Business Intelligence
+- Data Analytics
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
